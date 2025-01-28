@@ -1,4 +1,3 @@
-package Arrays;
 
 public class DSA12 {
     public static void main(String[]args){
