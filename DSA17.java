@@ -6,7 +6,7 @@ public class DSA17 {
         while(low<=high){
             int mid = (low+high)/2;
             if(a[mid] == k) return mid;
-            if(low<=mid){
+            if(a[low]<=a[mid]){
                 if(a[low]<=k && k<=a[mid]){
                     high = mid-1;
                 }else{
